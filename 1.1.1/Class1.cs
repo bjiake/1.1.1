@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1._1._1
+namespace Lab1
 {
-    class Class1
+    class Program
     {
         static void Main(string[] args)
         {
-            Task2 NewOperation = new Task2();
+            TaskAdditional NewOperation = new TaskAdditional();
             NewOperation.WriteResult();
             int Value = Convert.ToInt32(Console.ReadLine());
             int Times = Convert.ToInt32(Console.ReadLine());
